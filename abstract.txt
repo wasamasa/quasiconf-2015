@@ -1,0 +1,9 @@
+Emacs is a classic text editor with an unique premise: Runtime
+extensibility and introspection. It has become infamous for its
+unprecedented level of malleability its users have demonstrated by
+crafting thousands of Emacs packages for turning it into a finely
+tuned text editing environment.
+
+This talk will explore to which extent its graphical abilities can be
+used to create anything between user interface enhancements to classic
+games.
