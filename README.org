@@ -1,0 +1,10 @@
+* About
+
+This talk explains the basics and techniques behind graphical demos in
+Emacs.  See =presentation.org= and =presentation.pdf= for the slides,
+a video recording will be put up soon.
+
+* Setup
+
+None this time.
+
