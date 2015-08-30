@@ -18,6 +18,7 @@
 - [[v.schneidermann@gmail.com]]
 - https://github.com/wasamasa
 - http://emacshorrors.com/
+- http://emacsninja.com/
 
 ** What?
 
@@ -79,8 +80,7 @@ http://lastmechanicalmonster.blogspot.com/2014/08/page-91.html
 - XBM :: Monochrome bitmaps, easily generated
 - XPM, PBM :: Textual format, easily generated
 - SVG :: XML format for vector graphics
-- PostScript :: No idea why you'd use /that/
-- TIFF :: See above
+- PostScript, TIFF :: No idea why you'd use /that/
 - ImageMagick :: Support for nearly any format plus tunables
 
 ** Locations
@@ -385,6 +385,14 @@ static char *graphic[] = {
 - Demos ([[https://www.scene.org/][scene.org]])
 - Image preview tooltips (IRC clients)
 - ...
+
+** Other Cool Demos
+
+- http://elpa.gnu.org/packages/svg-clock.html
+- https://github.com/fitzsim/slime-volleyball
+- https://github.com/sabof/magic-buffer
+- https://github.com/sabof/svg-thing
+- https://github.com/alezost/ducpel
 
 ** Questions?
 
