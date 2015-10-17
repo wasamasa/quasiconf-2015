@@ -6,7 +6,7 @@ Emacs.  See =presentation.org= and =presentation.pdf= for the slides.
 Video recording: https://youtu.be/NBArWrn6FnY
 
 I did a lightning talk later for [[http://emacsconf2015.org/][EmacsConf 2015]]:
-http://www.twitch.tv/emacsconf.  This prompted a hangout with [[http://sachachua.com/blog/][Sacha
+https://youtu.be/6LFtbwjWeEE.  This prompted a hangout with [[http://sachachua.com/blog/][Sacha
 Chua]]: https://youtu.be/x1t9b7Fqo9c.
 
 * Setup
