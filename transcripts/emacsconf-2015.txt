@@ -1,0 +1,94 @@
+VS: I dunno about you, but I found a great pleasure in making Emacs do
+things that aren't really text editing related, like - graphics.  I've
+already looked for things to do that haven't been really done yet,
+like, networking, such as making torrent clients or doing audio stuff,
+but I've settled on graphics because that's the easiest of them and
+because it has some research, but not really much of it and as you
+maybe know you can actually insert text, add properties to it that
+tell that it is associated with an image and then make the display
+engine display it.  So, I've done this - three times already for three
+different games using three different types of image types and, yeah,
+the first is a demonstration of the classical Conway['s] game of life.
+
+So, I've done it with the code here and… do this, then I have a
+demonstration of Conway's game of life.  So, yeah, there isn't really
+much to say about this except that I can also try other figures or
+have a glider going on and yeah, this is done with the monochrome type
+in Emacs where you just have an XBM graphic[s] and can toggle bits and
+this is what I'm doing with an timer and yeah, this is done
+periodically and it only reacts to input events and that's pretty much
+the most basic thing you can do in Emacs.  But, I thought that kind of
+thing isn't really enough, so, I did take a further step and went for
+a game that's a bit more popular at the moment, namely 2048.
+
+So, we go for the same thing here and evaluate 2048 - which is a clone
+of the very well known 2048 game.  It doesn't have any animations, but
+it uses SVG to just insert a full board with all tiles on it.  I've
+added a bit of game logic, but otherwise it behaves just like the
+same.  It's a bit confusing because you can't really see all the
+pieces slide together, but I intend to fix that once I figure out how
+to do transitions properly.  And so, yeah, this is very fast, I could
+probably put it at 60 FPS, but I couldn't figure out anything really
+interesting to do for it, so I went for a third demonstration
+meanwhile which is a classic Tetris - [which] is actually at 60 FPS.
+And that thing put me for some challenges, like say […].
+
+So, […] here's the game play.  You can see a NES Tetris with a piece
+moving down and everything like that, it responds to events and, yeah,
+I had to build quite a few things to make it happen.  I would [like
+to] explain these in a hangout with Sacha Chua and, yeah, there's
+quite a lot to say about the technical things because as you might
+have already imagined, Emacs is quite not up to par for that.
+
+Oh.  You can't actually see it.  Well, I can see it on the […]
+preview, I dunno what's going on, seriously.  But, uh, yeah.
+
+SM: Yeah, the screen froze a bit and - oh, we see it now.
+
+VS: OK.  I'm not sure [why] it's frozen, maybe because I don't have
+enough upload?  I dunno, honestly, but anyways. […] Do you have any …
+[questions]?
+
+SM: I don't know if you can see in the audience, but everyone's jaws
+just hit the floor.  This is really cool.
+
+VS: Well, it doesn't have any actual game features yet, like, I mean,
+beyond rotation and everything.  So, lines aren't cleared yet, but I
+intend to fix this because the most stumbling blocks have been
+cleared.  So, any further questions about this before I go into actual
+detail tomorrow?
+
+SM: Uh, yeah, we have some questions.
+
+??: What's the difference between this and the built-in Tetris?
+
+VS: This is bitmaps.  No text at all.  It plays at 60 FPS actually, I
+can implement animations and, yeah, I can do a lot of the things the
+original can't yet, like actually making it play like a real Tetris
+because the original has for someone like me, an enthusiast of the
+game, quite a few differences, like, uhm, you don't even have
+soft-dropping in it or blocks individually and that is quite
+[bothersome] for me, so I thought I'd reinvent it some day and this
+happened that day.
+
+SM: Cool!  This is really cool.  Other questions?  In the audience?
+This is really, really cool.  Let me check IRC if there's anything
+there...
+
+VS: But don't expect any shooters or anything like that because, uhm,
+I'd need to get quite a bit more creative for this.
+
+SM: Yes, so on IRC, mbork wants to know if you'd be working on… a
+mario clone?
+
+VS: Maybe! Maybe, but it's a lot more effort because you have to
+create worlds and more logic and elisp is quite, I dunno.  It feels
+very verbose to me and, like JavaScript basically.  There is a nice
+blog post from Steve Yegge about it, how verbose JavaScript is, but
+how it has grown beyond its roots - while Emacs Lisp hasn't.  And
+yeah.  So he's expecting that the browser will some day eat up Emacs
+and solve this problem.
+
+SM: It's been like a couple years since that post.  But yeah… any
+other questions?  This is really cool.  Thanks for, like giving us
+[the] talk.
